@@ -1,0 +1,141 @@
+.page-header {
+    position: relative;
+    z-index: 5;
+
+    min-height: 10px;
+    padding: 7px;
+
+    color: rgb(187, 216, 195);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial', Times, sans-serif;
+
+    background-image:
+        linear-gradient(45deg, #71ae7a 25%, transparent 25%),
+        linear-gradient(-45deg, #71ae7a 25%, transparent 25%),
+        linear-gradient(135deg, #71ae7a 25%, transparent 25%),
+        linear-gradient(-135deg, #71ae7a 25%, transparent 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    box-shadow: 0 0 10px 0 #71ae7a;
+}
+
+.title {
+    font-size: 50px;
+    color: #000;
+    padding-left: 10px;
+    line-height: 59px;
+}
+
+.title span {
+    display: inline;
+    background-color: #71ae7a;
+    box-shadow: -10px 0 0 #71ae7a, 10px 0 0 #71ae7a;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+.fio {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.mail {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.nvsu {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.fak0 {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.fak {
+    padding-left: 10px;
+    font-style: italic;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.prof {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.prog {
+    text-decoration: line-through;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.yvl {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.kp {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+.rek {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+    text-decoration: underline;
+}
+
+.rek1 {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Arial', Times, sans-serif;
+}
+
+main {
+    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(113, 174, 122);
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
+}
+
+.page-footer {
+    min-height: 50px;
+    padding: 20px;
+
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+
+    background-color: #71ae7a;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #ffffff 50%),
+        linear-gradient(-45deg, transparent 50%, #ffffff 50%),
+        linear-gradient(135deg, transparent 50%, #ffffff 50%),
+        linear-gradient(-135deg, transparent 50%, #ffffff 50%);
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 12px 12px;
+}
+
+.lis1{
+    padding-left: 10px;
+}
+.lis{
+    border: 8px solid #ffffff;
+}
